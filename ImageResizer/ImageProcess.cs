@@ -82,25 +82,7 @@ namespace ImageResizer
             {
                 Console.WriteLine("Parallel.ForEach has thrown an exception. THIS WAS NOT EXPECTED.\n{0}", e);
             }
-
-            //foreach (var filePath in allFiles)
-            //{
-            //    Image imgPhoto = Image.FromFile(filePath);
-            //    string imgName = Path.GetFileNameWithoutExtension(filePath);
-
-            //    int sourceWidth = imgPhoto.Width;
-            //    int sourceHeight = imgPhoto.Height;
-
-            //    int destionatonWidth = (int)(sourceWidth * scale);
-            //    int destionatonHeight = (int)(sourceHeight * scale);
-
-            //    Bitmap processedImage = ProcessBitmap((Bitmap)imgPhoto,
-            //        sourceWidth, sourceHeight,
-            //        destionatonWidth, destionatonHeight);
-
-            //    string destFile = Path.Combine(destPath, imgName + ".jpg");
-            //    processedImage.Save(destFile, ImageFormat.Jpeg);
-            //}
+          
         }
 
         /// <summary>
